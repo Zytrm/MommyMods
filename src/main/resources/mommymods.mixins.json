@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.zytrm.mommymods.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "ClientPacketListenerMixin",
+    "FishingHookAccessor",
+    "FishingHookRendererMixin",
+    "GuiMixin",
+    "MultiPlayerGameModeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

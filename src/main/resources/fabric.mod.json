@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "mommymods",
+  "version": "${version}",
+  "name": "MommyMods",
+  "description": "Focused fishing utilities for Hypixel SkyBlock.",
+  "authors": ["Zytrm"],
+  "contact": {
+    "homepage": "https://github.com/Zytrm/MommyMods",
+    "sources": "https://github.com/Zytrm/MommyMods",
+    "issues": "https://github.com/Zytrm/MommyMods/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/mommymods/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "com.zytrm.mommymods.MommyMods"
+      }
+    ],
+    "modmenu": [
+      "com.zytrm.mommymods.ui.ModMenuIntegration"
+    ]
+  },
+  "mixins": ["mommymods.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.1.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "fabric-language-kotlin": "*"
+  },
+  "suggests": {
+    "modmenu": ">=18.0.0-beta.1"
+  }
+}

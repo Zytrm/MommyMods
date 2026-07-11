@@ -1,0 +1,37 @@
+{
+  "catch.experience": {
+    "sounds": [
+      { "name": "minecraft:entity.experience_orb.pickup", "type": "event" }
+    ]
+  },
+  "catch.pling": {
+    "sounds": [
+      { "name": "minecraft:block.note_block.pling", "type": "event" }
+    ]
+  },
+  "catch.level_up": {
+    "sounds": [
+      { "name": "minecraft:entity.player.levelup", "type": "event" }
+    ]
+  },
+  "catch.amethyst": {
+    "sounds": [
+      { "name": "minecraft:block.amethyst_block.chime", "type": "event" }
+    ]
+  },
+  "catch.allay": {
+    "sounds": [
+      { "name": "minecraft:entity.allay.item_given", "type": "event" }
+    ]
+  },
+  "catch.thunder": {
+    "sounds": [
+      { "name": "minecraft:item.trident.thunder", "type": "event" }
+    ]
+  },
+  "catch.button": {
+    "sounds": [
+      { "name": "minecraft:ui.button.click", "type": "event" }
+    ]
+  }
+}
